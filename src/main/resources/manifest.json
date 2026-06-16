@@ -1,8 +1,8 @@
 {
-    "Group": "HytaleModding",
+    "Group": "Alejandro5019",
     "Name": "ExamplePlugin",
-    "Version": "0.0.0",
-    "Description": "Description of your plugin",
+    "Version": "0.0.1",
+    "Description": "Mi minijuego de Backrooms",
     "Authors": [
         {
             "Name": "Your_Name",
@@ -14,12 +14,16 @@
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
     "Dependencies": {
-        "Hytale:AssetModule": "*"
+        "Hytale:AssetModule": "*",
+        "Hytale:EntityModule": "*",
+        "Hytale:Instances": "*",
+        "Hytale:BlockTypeModule": "*",
+        "Hytale:NPC": "*"
     },
     "OptionalDependencies": {
         
     },
-    "ServerVersion": ">=0.5.3 <0.6.0",
+    "ServerVersion": ">=0.6.0-pre.1 <0.7.0",
     "Main": "dev.hytalemodding.ExamplePlugin",
     "UpdateChecker": {
         "CurseForge": ""

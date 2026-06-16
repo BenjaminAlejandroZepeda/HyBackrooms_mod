@@ -1,0 +1,33 @@
+{
+  "Version": 4,
+  "RequiredPlugins": {
+    "Hytale:EntityModule": "*",
+    "Hytale:NPC": "*"
+  },
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Default_Flat"
+  },
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": 0.5,
+      "Y": 80.0,
+      "Z": 0.5,
+      "Pitch": 0,
+      "Yaw": 180,
+      "Roll": 0.0
+    }
+  },
+  "IsSpawningNPC": true,
+  "IsTicking": true,
+  "DeleteOnRemove": true,
+  "Instance": {
+    "RemovalConditions": [
+      {
+        "Type": "WorldEmpty",
+        "TimeoutSeconds": 10
+      }
+    ]
+  }
+}
