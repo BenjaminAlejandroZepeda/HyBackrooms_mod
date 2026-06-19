@@ -1,0 +1,11 @@
+{
+  "Backup": {
+    "Enabled": true,
+    "FrequencyMinutes": 30,
+    "Directory": "backup",
+    "MaxCount": 5,
+    "ArchiveMaxCount": 5
+  },
+  "Version": 4,
+  "Mods": {}
+}

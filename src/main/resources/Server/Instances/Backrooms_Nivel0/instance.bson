@@ -4,9 +4,13 @@
     "Hytale:EntityModule": "*",
     "Hytale:NPC": "*"
   },
+  "GameMode": "Adventure",
   "WorldGen": {
-    "Type": "HytaleGenerator",
-    "WorldStructure": "Default_Flat"
+    "Type": "Void",
+    "Environment": "Default"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
   },
   "SpawnProvider": {
     "Id": "Global",
@@ -14,20 +18,23 @@
       "X": 0.5,
       "Y": 80.0,
       "Z": 0.5,
-      "Pitch": 0,
-      "Yaw": 180,
+      "Pitch": 0.0,
+      "Yaw": 180.0,
       "Roll": 0.0
     }
   },
   "IsSpawningNPC": true,
   "IsTicking": true,
+  "IsSavingPlayers": false,
   "DeleteOnRemove": true,
-  "Instance": {
-    "RemovalConditions": [
-      {
-        "Type": "WorldEmpty",
-        "TimeoutSeconds": 10
-      }
-    ]
+  "Plugin": {
+    "Instance": {
+      "RemovalConditions": [
+        {
+          "Type": "WorldEmpty",
+          "TimeoutSeconds": 10
+        }
+      ]
+    }
   }
 }
