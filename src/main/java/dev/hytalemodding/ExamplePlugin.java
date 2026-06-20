@@ -29,6 +29,13 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class ExamplePlugin extends JavaPlugin {
 
     private static final String LOBBY_WORLD_NAME = "Lobby";
+
+    // Evidencia real de logs: spawnInstance("Lobby", ...) produce mundos nombrados
+    // "instance-Lobby-<uuid>", NO "Lobby" exacto. Confirmado por logs del usuario,
+    // no por documentación. Si el patrón de nombrado cambia en otra versión del SDK,
+    // este prefijo deja de ser válido y hay que volver a loguear world.getName().
+    private static final String LOBBY_INSTANCE_PREFIX = "instance-" + LOBBY_WORLD_NAME + "-";
+
     private MatchManager matchManager;
 
     public ExamplePlugin(@Nonnull JavaPluginInit init) {
@@ -51,12 +58,33 @@ public class ExamplePlugin extends JavaPlugin {
         World world = ref.getStore().getExternalData().getWorld();
         System.out.println("[Backrooms] PlayerReadyEvent en: " + world.getName());
 
-        // ANTI-LOOP: PlayerReadyEvent es global y se dispara también cuando el jugador
-        // entra a Backrooms_Nivel0. Sin este filtro, el jugador sería re-encolado
-        // desde dentro de la instancia y teletransportado de vuelta al Lobby de inmediato.
-        if (world.getName().equals(LOBBY_WORLD_NAME)) {
+        // Caso 1: ya está dentro de la instancia persistente del Lobby -> matchmaking.
+        // FIX: el nombre real no es "Lobby" exacto, es "instance-Lobby-<uuid>"
+        // (confirmado por logs). Se compara por prefijo, no por igualdad.
+        if (world.getName().startsWith(LOBBY_INSTANCE_PREFIX)) {
             this.matchManager.queuePlayer(ref);
+            return;
         }
+
+        // Caso 2: ya está dentro de una partida de Backrooms activa -> no tocar.
+        if (this.matchManager.isActiveInstance(world.getName())) {
+            return;
+        }
+
+        // Caso 3: mundo base/inicial de conexión -> redirigir a la instancia
+        // persistente del Lobby (se crea una sola vez y se reutiliza para todos).
+        // FIX: envuelto en world.execute() — la misma regla de hilos que ya
+        // aplicamos a startMatch() aplica aquí; se había perdido en la ronda anterior.
+        System.out.println("[Backrooms] Redirigiendo al Lobby persistente desde: " + world.getName());
+        world.execute(() -> {
+            CompletableFuture<World> lobbyFuture = this.matchManager.getOrCreateLobbyInstance(world);
+            InstancesPlugin.teleportPlayerToLoadingInstance(
+                    ref,
+                    ref.getStore(),
+                    lobbyFuture,
+                    null // Override de returnPoint: sin confirmar coordenadas del mundo base
+            );
+        });
     }
 
     private void onPlayerDisconnect(PlayerDisconnectEvent event) {
@@ -77,11 +105,20 @@ public class ExamplePlugin extends JavaPlugin {
         public final String worldName;
         public final List<Ref<EntityStore>> players;
         public MatchState state;
+        public final long createdAtMillis;
+
+        // Evita destruir la instancia mientras el jugador todavía está en tránsito
+        // (teleportPlayerToLoadingInstance deja a la instancia momentáneamente vacía
+        // entre el momento en que se registra el contexto y el momento en que el
+        // jugador realmente entra). Solo se permite limpieza por vacío DESPUÉS de
+        // que esto sea true al menos una vez.
+        public volatile boolean hasBeenPopulated = false;
 
         public InstanceContext(String worldName, List<Ref<EntityStore>> players) {
             this.worldName = worldName;
             this.players = new ArrayList<>(players);
             this.state = MatchState.PLAYING;
+            this.createdAtMillis = System.currentTimeMillis();
         }
     }
 
@@ -96,8 +133,49 @@ public class ExamplePlugin extends JavaPlugin {
         private final CopyOnWriteArrayList<Ref<EntityStore>> waitingQueue =
                 new CopyOnWriteArrayList<>();
 
+        // Si una instancia nunca llega a recibir a su primer jugador (p. ej. el
+        // teleport falló silenciosamente en el cliente), este timeout evita que
+        // quede huérfana para siempre. No afecta el caso normal: el jugador suele
+        // entrar en menos de un segundo, muy por debajo de este margen.
+        private static final long INSTANCE_POPULATION_GRACE_MS = 30_000;
+
         // Clave por nombre de mundo. world.getUuid() NO existe en SDK 0.6.
         private final Map<String, InstanceContext> activeInstances = new ConcurrentHashMap<>();
+
+        // Instancia única y persistente del Lobby. Se crea una sola vez (perezosamente,
+        // en el primer join) y se reutiliza para todos los jugadores. Protegida con
+        // synchronized para evitar que dos joins concurrentes generen dos Lobbys.
+        private volatile CompletableFuture<World> lobbyInstanceFuture;
+
+        /**
+         * Devuelve el Future de la instancia persistente del Lobby, creándola si es
+         * la primera vez que se solicita. originWorld se usa solo como contexto/anchor
+         * para spawnInstance (mundo base de conexión), no como destino.
+         */
+        public synchronized CompletableFuture<World> getOrCreateLobbyInstance(World originWorld) {
+            if (this.lobbyInstanceFuture == null) {
+                System.out.println("[Backrooms] Creando instancia persistente del Lobby (única vez).");
+                // SIN CONFIRMAR: coordenadas de returnPoint hacia el mundo base.
+                CompletableFuture<World> future = InstancesPlugin.get().spawnInstance(
+                        "Lobby",
+                        originWorld,
+                        new Transform(0, 80, 0)
+                );
+                // FIX: si la creación falla, liberar el cache para que el siguiente
+                // join reintente en vez de quedar atado a un future roto para siempre.
+                future.exceptionally(ex -> {
+                    System.err.println("[Backrooms] Error creando instancia Lobby: " + ex.getMessage());
+                    this.resetLobbyInstance();
+                    return null;
+                });
+                this.lobbyInstanceFuture = future;
+            }
+            return this.lobbyInstanceFuture;
+        }
+
+        private synchronized void resetLobbyInstance() {
+            this.lobbyInstanceFuture = null;
+        }
 
         public void queuePlayer(Ref<EntityStore> player) {
             if (!waitingQueue.contains(player)) {
@@ -119,7 +197,9 @@ public class ExamplePlugin extends JavaPlugin {
             World world = store.getExternalData().getWorld();
 
             // --- Rama Lobby ---
-            if (world.getName().equals(LOBBY_WORLD_NAME)) {
+            // FIX: mismo bug que en onPlayerReady — comparar por prefijo, no por
+            // igualdad exacta, ya que el nombre real es "instance-Lobby-<uuid>".
+            if (world.getName().startsWith(LOBBY_INSTANCE_PREFIX)) {
                 if (!waitingQueue.isEmpty()) {
                     // Snapshot atómico + vaciado inmediato antes de world.execute().
                     // Garantiza que ticks subsiguientes no relancen otro startMatch
@@ -132,12 +212,36 @@ public class ExamplePlugin extends JavaPlugin {
             }
 
             // --- Rama Instancia: autolimpieza cuando queda vacía ---
-            if (activeInstances.containsKey(world.getName()) && world.getPlayerRefs().isEmpty()) {
-                world.execute(() -> {
-                    System.out.println("[Backrooms] Instancia vacía, eliminando: " + world.getName());
-                    activeInstances.remove(world.getName());
-                    InstancesPlugin.safeRemoveInstance(world); // Estático — confirmado en SDK
-                });
+            // FIX: el chequeo anterior (containsKey + isEmpty) destruía instancias
+            // recién creadas durante la ventana en que el jugador todavía está en
+            // tránsito (evidencia de logs: ~57ms entre "Instancia registrada" y
+            // "Player joined world"). Ahora se exige que la instancia haya sido
+            // confirmada como poblada al menos una vez antes de poder limpiarla,
+            // salvo timeout de seguridad si nunca llega nadie.
+            InstanceContext ctx = activeInstances.get(world.getName());
+            if (ctx != null) {
+                boolean currentlyEmpty = world.getPlayerRefs().isEmpty();
+
+                if (!currentlyEmpty) {
+                    ctx.hasBeenPopulated = true;
+                } else {
+                    boolean genuinelyAbandoned = ctx.hasBeenPopulated;
+                    boolean neverArrivedTimeout = !ctx.hasBeenPopulated
+                            && (System.currentTimeMillis() - ctx.createdAtMillis) > INSTANCE_POPULATION_GRACE_MS;
+
+                    if (genuinelyAbandoned || neverArrivedTimeout) {
+                        String reason = neverArrivedTimeout
+                                ? "nunca recibió jugadores (timeout)"
+                                : "vaciada tras uso normal";
+                        world.execute(() -> {
+                            System.out.println("[Backrooms] Instancia vacía, eliminando ("
+                                    + reason + "): " + world.getName());
+                            activeInstances.remove(world.getName());
+                            InstancesPlugin.safeRemoveInstance(world);
+                        });
+                    }
+                    // si no se cumple ninguna condición: sigue en ventana de gracia, no hacer nada.
+                }
             }
         }
 
