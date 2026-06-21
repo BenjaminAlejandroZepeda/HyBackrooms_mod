@@ -1,0 +1,16 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Smiler",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "FixedRotation": false
+    }
+  ],
+  "CullDistance": 50.0,
+  "BoundingRadius": 10.0,
+  "IsImportant": true
+}

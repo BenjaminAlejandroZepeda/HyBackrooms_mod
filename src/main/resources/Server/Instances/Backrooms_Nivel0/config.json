@@ -1,11 +1,67 @@
 {
-  "Backup": {
-    "Enabled": true,
-    "FrequencyMinutes": 30,
-    "Directory": "backup",
-    "MaxCount": 5,
-    "ArchiveMaxCount": 5
-  },
   "Version": 4,
-  "Mods": {}
+  "UUID": {
+    "$binary": "mVXUNKNbRPq7P+l3CAC8Jw==",
+    "$type": "04"
+  },
+  "DisplayName": "Backrooms_Nivel0",
+  "Seed": 1781737230867,
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": 8.126975059509277,
+      "Y": 92.08670043945312,
+      "Z": 13.67490005493164,
+      "Pitch": -17.546945571899414,
+      "Yaw": 19.106220245361328,
+      "Roll": 0.0
+    }
+  },
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Default_Flat"
+  },
+  "WorldMap": {
+    "Type": "WorldGen"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "ChunkConfig": {},
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": false,
+  "IsGameTimePaused": false,
+  "GameTime": "0001-01-17T19:41:21.033286883Z",
+  "ForcedWeather": "Zone4_GhostForest",
+  "ClientEffects": {
+    "SunHeightPercent": 100.0,
+    "SunAngleDegrees": 0.0,
+    "BloomIntensity": 0.30000001192092896,
+    "BloomPower": 8.0,
+    "SunIntensity": 0.25,
+    "SunshaftIntensity": 0.30000001192092896,
+    "SunshaftScaleFactor": 4.0
+  },
+  "RequiredPlugins": {},
+  "GameMode": "Adventure",
+  "IsSpawningNPC": false,
+  "IsBlockSpawnersEnabled": true,
+  "IsSpawnMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsSavingPlayers": true,
+  "IsSavingChunks": true,
+  "SaveNewChunks": true,
+  "IsUnloadingChunks": true,
+  "IsObjectiveMarkersEnabled": true,
+  "DeleteOnUniverseStart": false,
+  "DeleteOnRemove": false,
+  "DisabledFluidTickers": [],
+  "ResourceStorage": {
+    "Type": "Hytale"
+  },
+  "Plugin": {}
 }

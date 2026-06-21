@@ -1,0 +1,69 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Predator",
+  "EyeHeight": 0.4,
+  "Modify": {
+    "Appearance": "Howler_High",
+    "MaxHealth": 600,
+    "MaxSpeed": 5.5,
+    "ViewRange": 35,
+    "ViewSector": 140,
+    "HearingRange": 35,
+    "AbsoluteDetectionRange": 5.0,
+    "Attack": "Root_NPC_Attack_Melee",
+    "AttackDistance": 4,
+    "TargetRange": 4,
+    "AttackPauseRange": [
+      0.8,
+      1.5
+    ],
+    "CombatRelativeTurnSpeed": 1.4,
+    "CombatStrafeWeight": 0,
+    "ChaseRelativeSpeed": 1.5,
+    "LeashDistance": 50.0,
+    "IsMemory": true,
+    "MemoriesCategory": "Hostile",
+    "MemoriesNameOverride": "Howler",
+    "_InteractionVars": {
+      "Melee_Selector": {
+        "Interactions": [
+          {
+            "Parent": "NPC_Attack_Selector_Left",
+            "Selector": {
+              "StartDistance": 0.1,
+              "EndDistance": 10,
+              "ExtendTop": 2.5,
+              "ExtendBottom": 2.5,
+              "Length": 30
+            }
+          }
+        ]
+      },
+      "Melee_Damage": {
+        "Interactions": [
+          {
+            "Parent": "NPC_Attack_Melee_Damage",
+            "DamageCalculator": {
+              "Type": "Absolute",
+              "BaseDamage": {
+                "Physical": 60
+              }
+            },
+            "DamageEffects": {
+              "WorldSoundEventId": "SFX_Fen_Stalker_Alerted",
+              "Knockback": {
+                "Force": 2.5
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Howler.name",
+      "Description": "Nombre visual de la Bacteria"
+    }
+  }
+}

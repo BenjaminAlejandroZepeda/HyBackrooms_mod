@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Cloth_Block_Wool_Yellow_Light.name"
+  },
+  "Parent": "Cloth_Block_Wool_White",
+  "SubCategory": "BlockSets",
+  "Set": "Cloth_Wool_Yellow_Light",
+  "Icon": "Icons/ItemsGenerated/Cloth_Block_Wool_Yellow_Light.png",
+  "ItemLevel": 21,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Yellow",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Plant_Petals_White",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Textiles"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "ParticleColor": "#fffaa1",
+    "TextureComputedColor": "#DACF5E",
+    "CubeShadingMode": "Standard",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Texture.png"
+      }
+    ],
+    "Textures": [
+      {
+        "All": "Items/Texture.png"
+      }
+    ],
+    "CustomModel": "Items/Backrooms_Block.blockymodel",
+    "TextureSideMask": "Items/Texture.png"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

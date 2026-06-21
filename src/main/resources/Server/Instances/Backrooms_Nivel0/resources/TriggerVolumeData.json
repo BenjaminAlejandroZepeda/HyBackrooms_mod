@@ -1,0 +1,3804 @@
+{
+  "Volumes": {
+    "PortalNegro1": {
+      "Position": {
+        "X": -9.5,
+        "Y": 92.0,
+        "Z": 8.625
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.625
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.625
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 18.0,
+            "Y": 100.0,
+            "Z": 56.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "PortalNegro2": {
+      "Position": {
+        "X": 8.5,
+        "Y": 92.0,
+        "Z": -0.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.5,
+            "Y": 91.0,
+            "Z": 6.56
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "PortalNegro4": {
+      "Position": {
+        "X": -38.5,
+        "Y": 92.0,
+        "Z": 56.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -38.5,
+            "Y": 91.0,
+            "Z": 32.5
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "tv_8x8a88": {
+      "Position": {
+        "X": 42.5,
+        "Y": 93.0,
+        "Z": 20.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -9.5,
+          "Y": -2.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 9.5,
+          "Y": 2.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ControlDoors",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Action": "Close"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "0": "Extras"
+      }
+    },
+    "tv_j52vjd": {
+      "Position": {
+        "X": -11.5,
+        "Y": 92.0,
+        "Z": -32.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 11.0,
+            "Y": 100.0,
+            "Z": -65.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "tv_3nqnc0": {
+      "Position": {
+        "X": -4.5,
+        "Y": 83.5,
+        "Z": -23.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -33.0,
+            "Y": 100.0,
+            "Z": 7.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_xtwqks": {
+      "Position": {
+        "X": 56.5,
+        "Y": 83.5,
+        "Z": -54.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 60.0,
+            "Y": 100.0,
+            "Z": -59.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "AbrirPuerta1": {
+      "Position": {
+        "X": 18.5,
+        "Y": 92.5,
+        "Z": -19.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.5,
+          "Y": -1.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 2.5,
+          "Y": 1.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 19.0,
+            "Y": 91.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 19.0,
+            "Y": 92.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 19.0,
+            "Y": 93.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 18.0,
+            "Y": 91.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 18.0,
+            "Y": 92.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 18.0,
+            "Y": 93.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 17.0,
+            "Y": 91.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 17.0,
+            "Y": 92.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 17.0,
+            "Y": 93.0,
+            "Z": -18.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "SoundEvent": "",
+          "Volume": 1.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "4": "Puertas"
+      }
+    },
+    "tv_tfrm22": {
+      "Position": {
+        "X": 17.5,
+        "Y": 93.0,
+        "Z": -78.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -10.5,
+          "Y": -2.0,
+          "Z": -2.5
+        },
+        "Max": {
+          "X": 10.5,
+          "Y": 2.0,
+          "Z": 2.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlayVfx",
+          "Event": "ENTER",
+          "Interval": 50.0,
+          "Delay": 0.0,
+          "ParticleSystem": "Smiler_System",
+          "Offset": {
+            "X": -10.0,
+            "Y": 0.0,
+            "Z": -2.0
+          },
+          "AtEntity": false,
+          "Scale": 1.0,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Duration": 3.0
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 23.0,
+            "Y": 95.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 23.0,
+            "Y": 95.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.10000000149011612,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 20.0,
+            "Y": 95.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.10000000149011612,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 20.0,
+            "Y": 95.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.20000000298023224,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 17.0,
+            "Y": 95.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.20000000298023224,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 17.0,
+            "Y": 95.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.30000001192092896,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 14.0,
+            "Y": 95.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.30000001192092896,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 14.0,
+            "Y": 95.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.4000000059604645,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 11.0,
+            "Y": 95.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.4000000059604645,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 11.0,
+            "Y": 95.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "SoundEvent": "SFX_Window_Break",
+          "Volume": 40.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.10000000149011612,
+          "SoundEvent": "SFX_Window_Break",
+          "Volume": 40.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.20000000298023224,
+          "SoundEvent": "SFX_Window_Break",
+          "Volume": 40.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.30000001192092896,
+          "SoundEvent": "SFX_Window_Break",
+          "Volume": 40.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Backroom_Block"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Cooldown": 99999.0
+    },
+    "tv_ozcmm7": {
+      "Position": {
+        "X": -40.5,
+        "Y": 92.0,
+        "Z": 33.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 26.0,
+            "Y": 100.0,
+            "Z": 10.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "tv_svos3h": {
+      "Position": {
+        "X": 60.5,
+        "Y": 83.375,
+        "Z": -54.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.625,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.625,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 60.0,
+            "Y": 100.0,
+            "Z": -59.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "PelucheFinal": {
+      "Position": {
+        "X": -39.5,
+        "Y": 94.0,
+        "Z": -29.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Build_Lightsource_Yellow",
+          "Position": {
+            "X": -40.0,
+            "Y": 92.0,
+            "Z": -29.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 92.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 92.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 92.0,
+            "Z": -78.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 92.0,
+            "Z": -77.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "5": "PuertaFinal"
+      }
+    },
+    "RompeTecho1": {
+      "Position": {
+        "X": -32.5,
+        "Y": 96.0,
+        "Z": 7.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "Color": {
+        "X": 0.07058823853731155,
+        "Y": 0.800000011920929,
+        "Z": 0.800000011920929
+      },
+      "KeepLoaded": false,
+      "Tags": {
+        "3": "RomperSuelo"
+      }
+    },
+    "SillaFinal": {
+      "Position": {
+        "X": 0.5,
+        "Y": 92.5,
+        "Z": 51.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.5,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.5,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Build_Lightsource_Yellow",
+          "Position": {
+            "X": 0.0,
+            "Y": 93.0,
+            "Z": 57.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Build_Lightsource_Yellow",
+          "Position": {
+            "X": 56.0,
+            "Y": 93.0,
+            "Z": -71.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 91.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 91.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 91.0,
+            "Z": -78.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 91.0,
+            "Z": -77.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "5": "PuertaFinal"
+      }
+    },
+    "tv_zz7517": {
+      "Position": {
+        "X": 35.5,
+        "Y": 96.0,
+        "Z": -25.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "3": "RomperSuelo"
+      }
+    },
+    "tv_33od09": {
+      "Position": {
+        "X": -4.5,
+        "Y": 83.5,
+        "Z": -15.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.0,
+            "Y": 100.0,
+            "Z": 28.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_rf4wbo": {
+      "Position": {
+        "X": 28.5,
+        "Y": 96.0,
+        "Z": -5.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    },
+    "TuboFinal": {
+      "Position": {
+        "X": 57.5,
+        "Y": 94.0,
+        "Z": -1.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -1.0
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Build_Lightsource_Yellow",
+          "Position": {
+            "X": 58.0,
+            "Y": 92.0,
+            "Z": -2.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Build_Lightsource_Yellow",
+          "Position": {
+            "X": 56.0,
+            "Y": 93.0,
+            "Z": -75.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Build_Lightsource_Yellow",
+          "Position": {
+            "X": 58.0,
+            "Y": 92.0,
+            "Z": -1.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 55.0,
+            "Y": 97.0,
+            "Z": -12.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 97.0,
+            "Z": -12.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 93.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 93.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 93.0,
+            "Z": -78.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 56.0,
+            "Y": 93.0,
+            "Z": -77.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 57.0,
+            "Y": 92.0,
+            "Z": -80.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 57.0,
+            "Y": 92.0,
+            "Z": -79.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 57.0,
+            "Y": 92.0,
+            "Z": -78.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 57.0,
+            "Y": 92.0,
+            "Z": -77.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "5": "PuertaFinal"
+      }
+    },
+    "tv_g6ubwn": {
+      "Position": {
+        "X": -35.5,
+        "Y": 92.0,
+        "Z": 56.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -33.0,
+            "Y": 100.0,
+            "Z": 7.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "tv_sdwqhp": {
+      "Position": {
+        "X": 44.0,
+        "Y": 91.5,
+        "Z": 20.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -6.0,
+          "Y": -1.5,
+          "Z": -3.5
+        },
+        "Max": {
+          "X": 6.0,
+          "Y": 1.5,
+          "Z": 3.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.10000000149011612,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "3": "RomperSuelo"
+      }
+    },
+    "tv_gsqrty": {
+      "Position": {
+        "X": 10.5,
+        "Y": 92.5,
+        "Z": -14.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.5,
+          "Y": -1.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 2.5,
+          "Y": 1.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 11.0,
+            "Y": 91.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 11.0,
+            "Y": 92.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 11.0,
+            "Y": 93.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 10.0,
+            "Y": 91.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 10.0,
+            "Y": 92.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 10.0,
+            "Y": 93.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 9.0,
+            "Y": 91.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 9.0,
+            "Y": 92.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 9.0,
+            "Y": 93.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "4": "AbrirPuerta"
+      }
+    },
+    "tv_x42vvi": {
+      "Position": {
+        "X": -0.5,
+        "Y": 83.5,
+        "Z": -23.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -33.0,
+            "Y": 100.0,
+            "Z": 7.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_akloai": {
+      "Position": {
+        "X": 3.5,
+        "Y": 83.5,
+        "Z": -19.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "DamageEntity",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Mode": "PercentMax",
+          "Amount": 100.0
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_ckwm5r": {
+      "Position": {
+        "X": 56.0,
+        "Y": 96.5,
+        "Z": -15.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -3.0,
+          "Y": -2.5,
+          "Z": -3.0
+        },
+        "Max": {
+          "X": 3.0,
+          "Y": 2.5,
+          "Z": 3.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light",
+            "Deco_Moving_Box"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    },
+    "tv_yspj03": {
+      "Position": {
+        "X": 56.5,
+        "Y": 83.5,
+        "Z": -58.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.0,
+            "Y": 100.0,
+            "Z": 28.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_awtlip": {
+      "Position": {
+        "X": -10.0,
+        "Y": 91.5,
+        "Z": -27.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.0,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 91.0,
+            "Z": -27.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 92.0,
+            "Z": -27.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 93.0,
+            "Z": -27.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 91.0,
+            "Z": -28.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 92.0,
+            "Z": -28.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 93.0,
+            "Z": -28.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 91.0,
+            "Z": -29.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 92.0,
+            "Z": -29.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": -12.0,
+            "Y": 93.0,
+            "Z": -29.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    },
+    "tv_qgee4s": {
+      "Position": {
+        "X": -4.5,
+        "Y": 83.5,
+        "Z": -19.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "DamageEntity",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Mode": "PercentMax",
+          "Amount": 100.0
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_t4emt3": {
+      "Position": {
+        "X": 26.5,
+        "Y": 96.0,
+        "Z": 10.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    },
+    "tv_tvjo60": {
+      "Position": {
+        "X": 64.5,
+        "Y": 83.5,
+        "Z": -62.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 35.0,
+            "Y": 100.0,
+            "Z": -26.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_of15fk": {
+      "Position": {
+        "X": 56.5,
+        "Y": 83.5,
+        "Z": -62.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 35.0,
+            "Y": 100.0,
+            "Z": -26.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_upf6a3": {
+      "Position": {
+        "X": 11.5,
+        "Y": 96.0,
+        "Z": -64.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    },
+    "SpawnBicho": {
+      "Position": {
+        "X": -30.0,
+        "Y": 93.0,
+        "Z": -8.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -7.0,
+          "Y": -2.0,
+          "Z": -21.0
+        },
+        "Max": {
+          "X": 7.0,
+          "Y": 2.0,
+          "Z": 21.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "SpawnNpc",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 20.0,
+          "NpcType": "Howler",
+          "GroupType": "",
+          "Origin": "VolumeOrigin",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Count": 1,
+          "Yaw": 0.0
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Cooldown": 600.0,
+      "CooldownMode": "TOTAL",
+      "Tags": {
+        "6": "SpawnBicho"
+      }
+    },
+    "tv_btaki6": {
+      "Position": {
+        "X": 48.5,
+        "Y": 91.5,
+        "Z": -7.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.5,
+          "Y": -0.5,
+          "Z": -3.0
+        },
+        "Max": {
+          "X": 2.5,
+          "Y": 0.5,
+          "Z": 3.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 19.5,
+            "Y": 100.0,
+            "Z": 56.5
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_fv35mj": {
+      "Position": {
+        "X": 60.5,
+        "Y": 83.5,
+        "Z": -62.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 35.0,
+            "Y": 100.0,
+            "Z": -26.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_4hdi5q": {
+      "Position": {
+        "X": 64.5,
+        "Y": 83.5,
+        "Z": -54.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 60.0,
+            "Y": 100.0,
+            "Z": 59.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_cxybzv": {
+      "Position": {
+        "X": -0.5,
+        "Y": 83.5,
+        "Z": -19.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "DamageEntity",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Mode": "PercentMax",
+          "Amount": 100.0
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_2cl8sf": {
+      "Position": {
+        "X": -8.5,
+        "Y": 96.0,
+        "Z": 28.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "3": "DestruirSuelo"
+      }
+    },
+    "tv_r7ohon": {
+      "Position": {
+        "X": 65.5,
+        "Y": 92.0,
+        "Z": -51.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.0
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 66.0,
+            "Y": 91.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 66.0,
+            "Y": 92.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 66.0,
+            "Y": 93.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 65.0,
+            "Y": 91.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 65.0,
+            "Y": 92.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 65.0,
+            "Y": 93.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 64.0,
+            "Y": 91.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 64.0,
+            "Y": 92.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 64.0,
+            "Y": 93.0,
+            "Z": -50.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "4": "AbrirPuerta"
+      }
+    },
+    "tv_xzx4yh": {
+      "Position": {
+        "X": 3.5,
+        "Y": 83.5,
+        "Z": -15.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.0,
+            "Y": 100.0,
+            "Z": 28.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_b8pi2c": {
+      "Position": {
+        "X": 4.5,
+        "Y": 92.5,
+        "Z": -31.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.5,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.5,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 5.0,
+            "Y": 91.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 5.0,
+            "Y": 92.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 5.0,
+            "Y": 93.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 4.0,
+            "Y": 91.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 4.0,
+            "Y": 92.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 4.0,
+            "Y": 93.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 3.0,
+            "Y": 91.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.5,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 3.0,
+            "Y": 92.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 1.0,
+          "BlockType": "Empty",
+          "Position": {
+            "X": 3.0,
+            "Y": 93.0,
+            "Z": -13.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "4": "AbrirPuerta"
+      }
+    },
+    "tv_qikv8l": {
+      "Position": {
+        "X": -0.5,
+        "Y": 83.5,
+        "Z": -27.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 60.0,
+            "Y": 100.0,
+            "Z": -59.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_enjvri": {
+      "Position": {
+        "X": 43.5,
+        "Y": 91.5,
+        "Z": 13.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -0.5,
+          "Z": -2.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 2.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlayVfx",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "ParticleSystem": "Smiler_System",
+          "Offset": {
+            "X": 6.0,
+            "Y": 0.0,
+            "Z": 2.0
+          },
+          "AtEntity": false,
+          "Scale": 1.0,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Duration": 2.0
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 48.0,
+            "Y": 95.0,
+            "Z": 14.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 47.0,
+            "Y": 95.0,
+            "Z": 14.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 47.0,
+            "Y": 95.0,
+            "Z": 11.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": 48.0,
+            "Y": 95.0,
+            "Z": 11.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "SoundEvent": "SFX_Glass_Break",
+          "Volume": 40.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Cooldown": 60.0
+    },
+    "tv_hiwmmm": {
+      "Position": {
+        "X": 3.5,
+        "Y": 83.5,
+        "Z": -23.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -33.0,
+            "Y": 100.0,
+            "Z": 7.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_qf5lil": {
+      "Position": {
+        "X": -5.0,
+        "Y": 92.0,
+        "Z": 30.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.0,
+          "Y": -1.0,
+          "Z": -1.0
+        },
+        "Max": {
+          "X": 2.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlayVfx",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "ParticleSystem": "Smiler_System",
+          "Offset": {
+            "X": 2.0,
+            "Y": 1.0,
+            "Z": 10.0
+          },
+          "AtEntity": false,
+          "Scale": 1.0,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Duration": 1.5
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": -3.0,
+            "Y": 95.0,
+            "Z": 41.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Soil_Clay_Black",
+          "Position": {
+            "X": -2.0,
+            "Y": 95.0,
+            "Z": 41.0
+          },
+          "Origin": "WorldAbsolute",
+          "ReplaceMode": "Always",
+          "Rotation": "None"
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "SoundEvent": "SFX_Glass_Break",
+          "Volume": 40.0,
+          "Pitch": 1.0,
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Cooldown": 120.0
+    },
+    "tv_dvnaqn": {
+      "Position": {
+        "X": 64.5,
+        "Y": 83.5,
+        "Z": -58.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.0,
+            "Y": 100.0,
+            "Z": 28.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_l83o7j": {
+      "Position": {
+        "X": 48.5,
+        "Y": 96.0,
+        "Z": -7.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.5,
+          "Y": -1.0,
+          "Z": -3.0
+        },
+        "Max": {
+          "X": 2.5,
+          "Y": 1.0,
+          "Z": 3.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "3": "DestruirSuelo"
+      }
+    },
+    "CaidaPuerta": {
+      "Position": {
+        "X": 44.0,
+        "Y": 81.5,
+        "Z": 20.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -6.0,
+          "Y": -0.5,
+          "Z": -3.5
+        },
+        "Max": {
+          "X": 6.0,
+          "Y": 0.5,
+          "Z": 3.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -32.5,
+            "Y": 100.0,
+            "Z": 7.5
+          },
+          "World": "",
+          "ResetVelocity": false,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "a9": {
+      "Position": {
+        "X": 21.5,
+        "Y": 92.0,
+        "Z": -63.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.5,
+            "Y": 91.0,
+            "Z": 6.5
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "2": "PortalNegro"
+      }
+    },
+    "tv_zfd3re": {
+      "Position": {
+        "X": 3.5,
+        "Y": 83.5,
+        "Z": -27.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 60.0,
+            "Y": 100.0,
+            "Z": -59.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_8o3308": {
+      "Position": {
+        "X": 19.5,
+        "Y": 96.0,
+        "Z": 56.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "ReplaceBlockType",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "FromBlockTypes": [
+            "Cloth_Block_Wool_Yellow_Light"
+          ],
+          "ToBlockType": "Empty",
+          "Bounds": "Shape",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Rotation": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "3": "DestruirSuelo"
+      }
+    },
+    "tv_ullg28": {
+      "Position": {
+        "X": -4.5,
+        "Y": 83.5,
+        "Z": -27.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 60.0,
+            "Y": 100.0,
+            "Z": -59.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    },
+    "tv_yeikr0": {
+      "Position": {
+        "X": -0.5,
+        "Y": 83.5,
+        "Z": -15.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": -9.0,
+            "Y": 100.0,
+            "Z": 28.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "1": "PortalCaida"
+      }
+    }
+  }
+}

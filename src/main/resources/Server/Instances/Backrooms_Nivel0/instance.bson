@@ -7,7 +7,7 @@
   "GameMode": "Adventure",
   "WorldGen": {
     "Type": "Void",
-    "Environment": "Default"
+    "Environment": "Env_Zone4_Forests"
   },
   "ChunkStorage": {
     "Type": "Hytale"
@@ -15,14 +15,16 @@
   "SpawnProvider": {
     "Id": "Global",
     "SpawnPoint": {
-      "X": 0.5,
-      "Y": 80.0,
-      "Z": 0.5,
+      "X": 2,
+      "Y": 92.0,
+      "Z": 14,
       "Pitch": 0.0,
       "Yaw": 180.0,
       "Roll": 0.0
     }
   },
+  "IsGameTimePaused": true,
+  "GameTime": "0001-01-01T20:00:00Z",
   "IsSpawningNPC": true,
   "IsTicking": true,
   "IsSavingPlayers": false,
