@@ -1,1 +1,75 @@
-{}
+{
+  "Volumes": {
+    "tv_qo8tn1": {
+      "Position": {
+        "X": -11.0,
+        "Y": 81.0,
+        "Z": 11.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.0,
+          "Y": -1.0,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 2.0,
+          "Y": 1.0,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "SetWeather",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Weather": "Zone4_GhostForest",
+          "PlayerOnly": false,
+          "ResetWeather": false
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    },
+    "tv_jf3r0a": {
+      "Position": {
+        "X": -11.5,
+        "Y": 81.0,
+        "Z": 21.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -0.5,
+          "Y": -1.0,
+          "Z": -0.5
+        },
+        "Max": {
+          "X": 0.5,
+          "Y": 1.0,
+          "Z": 0.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "SendMessage",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Message": "\"/iniciar_backrooms\" to start the game",
+          "Recipient": "TriggeringPlayer"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false
+    }
+  }
+}
